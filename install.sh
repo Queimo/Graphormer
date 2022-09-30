@@ -2,6 +2,9 @@
 # Copyright (c) Microsoft Corporation.
 # Licensed under the MIT License.
 # install requirements
+conda create -n graphormer python=3.9
+conda activate graphormer
+
 apt update
 apt install build-essential
 pip install torch==1.9.1+cu111 torchaudio -f https://download.pytorch.org/whl/cu111/torch_stable.html
